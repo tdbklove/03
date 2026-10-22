@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-error":"#ffffff","on-secondary-fixed":"#341100","primary-container":"#d4a373","on-tertiary":"#ffffff","error":"#ba1a1a","outline-variant":"#d4c4b7","primary":"#7d562d","surface-bright":"#fbf9f5","surface-dim":"#dbdad6","on-surface-variant":"#50453b","tertiary-fixed":"#d3e5ef","outline":"#82756a","on-surface":"#1b1c1a","on-tertiary-fixed":"#0d1e25","on-error-container":"#93000a","surface-variant":"#e4e2de","on-tertiary-container":"#32434b","on-secondary-container":"#783d1a","surface-container":"#efeeea","inverse-surface":"#30312e","primary-fixed":"#ffdcbd","tertiary":"#506169","background":"#fbf9f5","tertiary-fixed-dim":"#b7c9d3","surface-container-highest":"#e4e2de","inverse-on-surface":"#f2f0ed","secondary-fixed":"#ffdbcb","on-tertiary-fixed-variant":"#394951","on-background":"#1b1c1a","surface":"#fbf9f5","error-container":"#ffdad6","surface-container-high":"#eae8e4","secondary-fixed-dim":"#ffb691","surface-container-low":"#f5f3ef","secondary-container":"#feaa7f","on-primary-fixed-variant":"#623f18","surface-tint":"#7d562d","inverse-primary":"#f0bd8b","secondary":"#8e4d2a","tertiary-container":"#9eafb9","on-secondary":"#ffffff","on-primary-fixed":"#2c1600","surface-container-lowest":"#ffffff","on-primary":"#ffffff","primary-fixed-dim":"#f0bd8b","on-secondary-fixed-variant":"#713714","on-primary-container":"#5b3912"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin-mobile":"1.25rem","space-3xl":"6rem","space-sm":"0.5rem","gutter":"1.5rem","margin":"3rem","space-2xl":"4rem","space-xl":"2.5rem","space-lg":"1.5rem","gutter-sm":"1rem","space-md":"1rem","space-xs":"0.25rem"},"fontFamily":{"headline-lg":["EB Garamond"],"headline-sm":["EB Garamond"],"headline-md":["EB Garamond"],"body-md":["Manrope"],"headline-lg-mobile":["EB Garamond"],"label-sm":["Manrope"],"body-lg":["Manrope"],"label-md":["Manrope"],"body-sm":["Manrope"],"display-hero-mobile":["EB Garamond"],"display-hero":["EB Garamond"]},"fontSize":{"headline-lg":["40px",{"lineHeight":"52px","letterSpacing":"-0.015em","fontWeight":"500"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"600"}],"headline-md":["28px",{"lineHeight":"38px","fontWeight":"500"}],"body-md":["15px",{"lineHeight":"26px","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"38px","letterSpacing":"0","fontWeight":"500"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.1em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"30px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"display-hero-mobile":["36px",{"lineHeight":"46px","letterSpacing":"-0.01em","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"68px","letterSpacing":"-0.02em","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-margin-mobile md:px-margin flex items-center justify-between"><a class="flex flex-col text-left group" data-path="explore-home" href="#"><span class="font-headline-md text-headline-md text-primary tracking-tight leading-none group-hover:text-secondary transition-colors">山嵐隱宿</span><span class="font-label-sm text-label-sm tracking-[0.2em] text-outline uppercase mt-space-xs">Misty Haven Retreat</span></a><nav class="hidden md:flex items-center gap-space-lg" data-active-classes="text-primary font-bold border-b border-primary-container"><a aria-current="page" class="pb-1 transition-colors text-primary font-bold border-b border-primary-container" data-path="explore-home" href="#">探索首頁</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface pb-1 transition-colors" data-path="featured-suites" href="#">精選房型</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface pb-1 transition-colors" data-path="curated-itinerary" href="#">預訂行程</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface pb-1 transition-colors" data-path="concierge-club" href="#">會員管家</a></nav><div class="flex items-center gap-space-md"><button aria-label="通知中心" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[20px]">notifications</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><a class="hidden sm:inline-flex items-center justify-center px-space-lg py-space-sm bg-secondary text-on-secondary rounded-lg font-label-md text-label-md hover:bg-secondary-container hover:text-on-secondary-container transition-all shadow-[0_4px_20px_-2px_rgba(45,55,72,0.05)]" data-path="curated-itinerary" href="#">立即預訂</a></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- 1. Hero Section -->
+<section class="relative w-full -mt-20 overflow-hidden min-h-[942px] flex items-center justify-center">
+<!-- Panoramic Mountain Mist Background -->
+<div class="absolute inset-0 bg-cover bg-center scale-105 transition-transform duration-1000 ease-out" data-alt="Cinematic panoramic view of a tranquil minimalist luxury wooden cabin villa nestled in misty mountain forest, morning fog rolling between pine trees, soft golden hour sunlight filtering through vapor, warm interior lantern glow, high-end architectural photography, peaceful and serene earthy warm tones" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuASVauxa4aCGikcrMJWtxX14oLkyOoXOnG2AuX1hrq80bVNqIUoo5sgMHFauEdim1njsyV187G_72-xMzxsBpG5IvbavC92jp5bK0lR6UZ5bp9a7QAWO29ckXD_IUEirzbFgwbYuxADwWPa_fmadAX4ZIpgubRgK--iIb1zl9vZcxBsD2hCW1jU_IAtDborK2N1J8MJF-mj9E2JMbPSHXLE5KfwCBTFa6pjAeP30XHdbvzIvPYQqOH6Sw')">
+</div>
+<!-- Gradient Ambient Scrims -->
+<div class="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-black/30"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-background/60 via-transparent to-background/30"></div>
+<!-- Hero Content -->
+<div class="relative z-10 w-full max-w-7xl mx-auto px-margin-mobile md:px-margin pt-36 pb-28 flex flex-col items-center text-center">
+<!-- Status & Weather Pill -->
+<div class="inline-flex items-center gap-space-md px-4 py-1.5 rounded-full bg-surface-bright/85 backdrop-blur-md shadow-sm mb-space-lg">
+<span class="inline-flex items-center gap-1.5 font-label-sm text-label-sm text-primary font-semibold">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+          森林晨霧季 · 限時預約中
+        </span>
+<span class="w-1 h-3 bg-outline-variant/60 rounded-full"></span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[15px] text-tertiary">thermostat</span>
+          19°C 晨霧
+        </span>
+</div>
+<!-- French / Old-style Serif Overline Subtitle -->
+<p class="font-label-md text-label-md tracking-[0.28em] text-primary uppercase font-bold mb-space-sm">
+        ARTISANAL RETREAT &amp; PRIVATE KITCHEN
+      </p>
+<!-- Headline -->
+<h1 class="font-display-hero text-display-hero text-on-surface font-normal tracking-tight max-w-3xl mb-space-md drop-shadow-sm">
+        隱身山巒間的靜謐之所
+      </h1>
+<!-- Literary Description -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed mb-space-2xl">
+        在海拔一千兩百公尺的林木深處，聆聽風穿過松針的聲音，與晨光一同甦醒。
+      </p>
+<!-- Desktop Horizontal Floating Booking Bar -->
+<div class="w-full max-w-5xl bg-surface-container-lowest/95 backdrop-blur-xl rounded-xl p-3 shadow-xl flex flex-col lg:flex-row items-stretch lg:items-center gap-2">
+<!-- Date Selector -->
+<button class="flex-1 flex items-center gap-3.5 p-3.5 rounded-lg hover:bg-surface-container-low transition-colors text-left group" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">入住與退房日期</span>
+<span class="font-body-md text-body-md font-semibold text-on-surface truncate">10月24日 (四) - 10月26日 (六)</span>
+<span class="font-label-sm text-label-sm text-secondary font-medium">共 2 晚</span>
+</div>
+</button>
+<div class="hidden lg:block w-px h-10 bg-surface-variant self-center"></div>
+<!-- Guests Selector -->
+<button class="flex-1 flex items-center gap-3.5 p-3.5 rounded-lg hover:bg-surface-container-low transition-colors text-left group" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">group</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">同行旅伴</span>
+<span class="font-body-md text-body-md font-semibold text-on-surface truncate">2 位成人</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">專屬山居私宴</span>
+</div>
+</button>
+<div class="hidden lg:block w-px h-10 bg-surface-variant self-center"></div>
+<!-- Room Type Selector -->
+<button class="flex-1 flex items-center gap-3.5 p-3.5 rounded-lg hover:bg-surface-container-low transition-colors text-left group" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">villa</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">預選房宿類型</span>
+<span class="font-body-md text-body-md font-semibold text-on-surface truncate">獨立別墅</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">配置景觀私泉</span>
+</div>
+</button>
+<!-- CTA Search Button -->
+<a class="flex items-center justify-center gap-2 px-8 py-4 bg-secondary text-on-secondary rounded-lg font-label-md text-label-md hover:bg-on-secondary-container hover:text-surface-bright transition-all shadow-md group" data-path="featured-suites" href="#">
+<span class="material-symbols-outlined text-[18px] group-hover:rotate-12 transition-transform">search</span>
+<span class="whitespace-nowrap font-medium tracking-wide">尋覓靜謐空房</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 2. Category Filters -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin -mt-6 z-20 mb-space-2xl">
+<div class="flex items-center justify-center flex-wrap gap-space-sm" id="categoryFilterContainer">
+<button class="px-5 py-2 rounded-full font-label-md text-label-md transition-all shadow-sm bg-inverse-surface text-inverse-on-surface font-semibold flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[16px]">home_work</span>
+        全部房型
+      </button>
+<button class="px-5 py-2 rounded-full font-label-md text-label-md transition-all bg-surface-container-lowest text-on-surface hover:bg-surface-container-high flex items-center gap-1.5 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px] text-primary">deck</span>
+        山景露台
+      </button>
+<button class="px-5 py-2 rounded-full font-label-md text-label-md transition-all bg-surface-container-lowest text-on-surface hover:bg-surface-container-high flex items-center gap-1.5 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px] text-primary">hot_tub</span>
+        私人溫泉浴
+      </button>
+<button class="px-5 py-2 rounded-full font-label-md text-label-md transition-all bg-surface-container-lowest text-on-surface hover:bg-surface-container-high flex items-center gap-1.5 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px] text-primary">forest</span>
+        森林木屋
+      </button>
+</div>
+</section>
+<!-- 3. Signature Suites Section -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin mb-space-3xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.24em] text-primary font-semibold mb-space-xs">SIGNATURE SUITES</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">熱門精選房型</h2>
+</div>
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary hover:text-on-secondary-container transition-colors group" data-path="featured-suites" href="#">
+<span>探索全館房邸</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">east</span>
+</a>
+</div>
+<!-- 3-Column Desktop Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Card 1 -->
+<article class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+<!-- Image Container -->
+<div class="relative w-full aspect-[16/10] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Interior of a luxury forest villa suite with floor to ceiling glass windows overlooking lush pine woods and rolling morning mist, king sized bed with soft natural linen sheets, custom teak wood furniture, warm diffused lantern illumination" src="https://lh3.googleusercontent.com/aida-public/AB6AXuATbg-aRc1mmxjPF62WnQLh8VojVZk9CXbrpSR0FGsXT-eUhqdHoEN68RwjpWvp5YRHy3JqmiJ5gGu6IYiq_yzgO7ZA2sahLFxxbsu0K2bZFuU9sDmY8wxfEt_3530UcHMeiRrJn1WtyOhuYmm4l9NTJeDGhIK7x5eqKe_mFsujslqX3YqMSwkbwzZLckvFvolcdsS9gcTUnAb9ojae_Sp35Orkku_sIAAu-bObxthcZ0g7CUbzMzkcPg"/>
+<div class="absolute top-4 left-4 flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 backdrop-blur-md text-primary font-label-sm text-label-sm font-semibold">
+              獨立景觀浴池
+            </span>
+</div>
+<button aria-label="收藏房型" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-surface-bright/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant hover:text-secondary hover:bg-surface-bright transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<!-- Content Area -->
+<div class="flex-1 p-space-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                雲霧雙人森林別墅
+              </h3>
+<div class="inline-flex items-center gap-1 font-label-md text-label-md text-on-surface font-semibold">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4.96</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              25坪 · 特大雙人床 · 私有松林步道陽台
+            </p>
+<!-- Amenities Chips -->
+<div class="flex flex-wrap gap-1.5 mb-space-lg">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">含晨光私廚早餐</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">迎賓手沖高山烏龍</span>
+</div>
+</div>
+<div class="pt-space-md bg-surface-container-lowest flex items-baseline justify-between">
+<div class="flex items-baseline gap-1">
+<span class="font-label-sm text-label-sm text-outline">每晚</span>
+<span class="font-headline-md text-headline-md text-secondary font-bold">NT$ 4,800</span>
+<span class="font-label-sm text-label-sm text-outline">起</span>
+</div>
+<a class="inline-flex items-center px-4 py-2 rounded-lg bg-surface-container text-on-surface hover:bg-secondary hover:text-on-secondary transition-colors font-label-md text-label-md" data-path="curated-itinerary" href="#">
+              細探空間
+            </a>
+</div>
+</div>
+</article>
+<!-- Card 2 -->
+<article class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+<!-- Image Container -->
+<div class="relative w-full aspect-[16/10] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Japanese style onsen ryokan room with aromatic cypress hinoki wood hot spring tub emitting subtle vapor, natural tatami mat flooring, paper shoji sliding doors open to quiet bamboo zen courtyard, warm ambient golden lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBOqU-FzsHoiZiv7DwIK9JwazqrAemmHiYj7SnBd7-6-AcEE7qxkZvXc0mlez4Htno3SuYHnqB8P_Y5VrlgfZAcH2J0s7cMAOrQeK2GxRNQk7JvjMWajD1NMuCF_Ym4Ed78t_DTdMT-9_6qW3VthzP_tcfFeVIv4HRc9nbYjfOM9XaXCP6LshYrDNw54-80JnEAdDhYBGoBbqeXMJPAERHbvS2dieYo_uW26KIxbTaERerexTwK5PHtQ"/>
+<div class="absolute top-4 left-4 flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm font-semibold shadow-sm">
+              熱門首選
+            </span>
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 backdrop-blur-md text-primary font-label-sm text-label-sm font-semibold">
+              天然地熱溫泉
+            </span>
+</div>
+<button aria-label="收藏房型" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-surface-bright/80 backdrop-blur-md flex items-center justify-center text-secondary hover:bg-surface-bright transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<!-- Content Area -->
+<div class="flex-1 p-space-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                檜木露天風呂和室
+              </h3>
+<div class="inline-flex items-center gap-1 font-label-md text-label-md text-on-surface font-semibold">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4.99</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              32坪 · 天然檜木桶 · 日本琉球疊蓆榻榻米
+            </p>
+<!-- Amenities Chips -->
+<div class="flex flex-wrap gap-1.5 mb-space-lg">
+<span class="px-2.5 py-1 rounded-full bg-primary-container/20 text-on-primary-container font-label-sm text-label-sm font-medium">一泊二食私廚宴</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">專屬管家席道</span>
+</div>
+</div>
+<div class="pt-space-md bg-surface-container-lowest flex items-baseline justify-between">
+<div class="flex items-baseline gap-1">
+<span class="font-label-sm text-label-sm text-outline">每晚</span>
+<span class="font-headline-md text-headline-md text-secondary font-bold">NT$ 6,200</span>
+<span class="font-label-sm text-label-sm text-outline">起</span>
+</div>
+<a class="inline-flex items-center px-4 py-2 rounded-lg bg-surface-container text-on-surface hover:bg-secondary hover:text-on-secondary transition-colors font-label-md text-label-md" data-path="curated-itinerary" href="#">
+              細探空間
+            </a>
+</div>
+</div>
+</article>
+<!-- Card 3 -->
+<article class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+<!-- Image Container -->
+<div class="relative w-full aspect-[16/10] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Modern high ceiling panoramic mountain view loft suite with expansive glass walls showcasing layered misty mountain ridges, luxury deep soaking bathtub perched next to view, soft champagne beige textiles, earthy ceramic vase accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDc3g2GXaZdBXaEexZswBvPHNEoiSqxyV6EZN2MPDnakJVQaPoJ0kmM_G23AWj2JMVChkm3L5WF6tbzdUlg-tcEL_at3OaduCtEUVZlVtxK8VG037627tQs_T-1EzBQiR1sSWkC432P1wDzfHGCVUUHXyssE0wcwVrcbNaWlyRaNWtovpDh6_BIjCGIz1rfrgqMAS2fnCe6J7UOIWu4jN36wvGQ1uNhBHUoT45TucHe8y8PcN9ZiG5qzQ"/>
+<div class="absolute top-4 left-4 flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 backdrop-blur-md text-primary font-label-sm text-label-sm font-semibold">
+              全景落地窗
+            </span>
+</div>
+<button aria-label="收藏房型" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-surface-bright/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant hover:text-secondary hover:bg-surface-bright transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<!-- Content Area -->
+<div class="flex-1 p-space-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                嵐月 · 挑高全景山景房
+              </h3>
+<div class="inline-flex items-center gap-1 font-label-md text-label-md text-on-surface font-semibold">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4.95</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              28坪 · 席夢思黑標名床 · 雙人景觀浴缸
+            </p>
+<!-- Amenities Chips -->
+<div class="flex flex-wrap gap-1.5 mb-space-lg">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">含晚間調飲小點</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Marshall音響配置</span>
+</div>
+</div>
+<div class="pt-space-md bg-surface-container-lowest flex items-baseline justify-between">
+<div class="flex items-baseline gap-1">
+<span class="font-label-sm text-label-sm text-outline">每晚</span>
+<span class="font-headline-md text-headline-md text-secondary font-bold">NT$ 5,600</span>
+<span class="font-label-sm text-label-sm text-outline">起</span>
+</div>
+<a class="inline-flex items-center px-4 py-2 rounded-lg bg-surface-container text-on-surface hover:bg-secondary hover:text-on-secondary transition-colors font-label-md text-label-md" data-path="curated-itinerary" href="#">
+              細探空間
+            </a>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- 4. Local Experiences Section -->
+<section class="w-full bg-surface-container-low py-space-3xl mb-space-3xl">
+<div class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div class="flex flex-col">
+<div class="flex items-center gap-2 mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.24em] text-primary font-semibold">LOCAL EXPERIENCES</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">住客專屬預約</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">深居山林的時光體驗</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          隨四季流轉的日常慢節奏，由專屬嚮導與私廚職人親自引領，品嚐屬於山林的沉靜氣味。
+        </p>
+</div>
+<!-- Desktop 4-Column Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Exp 1 -->
+<div class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all group">
+<div class="relative w-full aspect-[4/3] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Gentle morning yoga session on an outdoor cedar wood terrace amidst towering pine trees and soft morning mist, peaceful mindful stretching, natural earthy warm tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhBE6Jf7yA3RmSVpMitqVEfkgwkSnFwx7WRJwaVi4LL3T_sqKMmd2Qw5kDTW5VXQuCCX2tEtSO8HGPaZ0HBGVh4bETwyt9h6DtqF8zXMVLrGpe_apZ1tIsYN_UP2M4xF-4pTWMCrLpXWKdpIaC7EdjwxsjKdk8ae-vSTdRujOrBe1aJguF8xFI4l2fmMUnr_BgADDzoMYw09unMlTc5-7iEgfHbVcG4uh_Pv1YUf9AOh1A-2KTpdiDew"/>
+<span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-sm text-label-sm">
+              07:00 AM
+            </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">晨光瑜伽散步</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">松針林徑深呼吸，在清晨微涼的芬多精中舒展甦醒。</p>
+</div>
+<div class="pt-space-md flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>時長 60 分鐘</span>
+<span class="text-primary font-semibold">房客免費</span>
+</div>
+</div>
+</div>
+<!-- Exp 2 -->
+<div class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all group">
+<div class="relative w-full aspect-[4/3] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artisanal sourdough bread baking workshop in rustic open kitchen, glowing embers of traditional wood-fired stone oven, golden flour dusting on wooden prep table, warm amber light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbEKgKazo8DybtL5Ar8DAV0bey5BxigSGQFUlxfqUvg5cWKO9w_Gv4bsWpvDd0eX0w1b-ht_BamfXV_y-MgW4UaDefWHDV407KLzGoOxsJyG8oGBPxI2QDLc475h7PWpFN_xqPyFWrohEUa2Z6ElF1AypZZo_YKVH3NkgQ6B3WRzT-45CauUy7Mt6MtqILS741kCXKxGJzID2EJr_oyeH3yjH5_z-rqaZDphfIfYKBvjzegalgsTs3dA"/>
+<span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-sm text-label-sm">
+              14:30 PM
+            </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">手作柴燒麵包</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">天然老酵母發酵，在石造柴火爐前揉捏出麥香溫潤。</p>
+</div>
+<div class="pt-space-md flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>時長 90 分鐘</span>
+<span class="text-secondary font-semibold">預約制 · 酌收材料費</span>
+</div>
+</div>
+</div>
+<!-- Exp 3 -->
+<div class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all group">
+<div class="relative w-full aspect-[4/3] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Traditional Taiwanese tea ceremony setup on minimal dark slate table, delicate ceramic teapot with amber oolong tea pouring into small porcelain cups, steam rising against mountain backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8E3xwm_EDSvcaAsT9fYvP0uF7WFnBchKWEdY7nnQxwXrKnb-wkhGss41efynb2h9M_pJfBBPN-wRVB63XsaPwDjedwmJO6vWVOYk22XzmHQ1N35-txdTjfFChpnFggm14Hjc10kt8jRCL9VBAGG51bvosh2Hytxgb0WcBznm_yrE7EHax9COesPm6Emhq2q7guHbG51GCreMzim2_Eg6CtX13SGoI2MBDjKROwg1ZdEYMcO6sAp1o0w"/>
+<span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-sm text-label-sm">
+              16:00 PM
+            </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">高山手沖茶席</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">自栽高冷凍頂烏龍，由司茶職人引領三巡回甘之味。</p>
+</div>
+<div class="pt-space-md flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>時長 75 分鐘</span>
+<span class="text-primary font-semibold">房客免費</span>
+</div>
+</div>
+</div>
+<!-- Exp 4 -->
+<div class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all group">
+<div class="relative w-full aspect-[4/3] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Cozy outdoor cinema on lawn under starry night sky in the mountains, warm string fairy lights, rustic wooden deckchairs with plush wool blankets, mug of steaming mulled wine" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaLpPfkxx1uULJyUMYAqE0NhfTEuExm-ktsei4rlcUfT4fiX8iK9Z9FLmIG0Bys7hL8_t7PcbQp5-gCdR8gSF2J6YCgDmvzlbPUp5w1COzVvmdllVYCly-oNs-L513498fYnKmOltd_MtmqmuYwIoX4h6ayFXFGHudKIYkpAnZbLOlCWVCTVGmSJFS5jymPJsVmocxu4TP1hCypRNtLTiX1tmKeWLHIWtEdAmQ--TKIWfysEM3mBs_Qw"/>
+<span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-sm text-label-sm">
+              19:30 PM
+            </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">星空露天影院</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">微醺熱紅酒之夜，在草坪與漫天星宿下共賞經典文藝底片。</p>
+</div>
+<div class="pt-space-md flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>時長 120 分鐘</span>
+<span class="text-primary font-semibold">每週五六開展</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Host Story Section -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin mb-space-3xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Left Column: Host Couple Portrait & Narrative Quote -->
+<div class="lg:col-span-5 flex flex-col">
+<div class="relative w-full rounded-2xl overflow-hidden shadow-lg">
+<img class="w-full aspect-[4/5] object-cover" data-alt="Warm editorial portrait of a hospitable middle-aged Taiwanese couple smiling warmly inside an artisanal rustic wooden dining room, holding freshly harvested organic vegetables and artisan tea pottery, soft golden natural side lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkpwpzrKBA3GkdLpUA5SC0Qn_srZIC324E5V3gmUWnMn1IKqXZ_J7XofCYIVSHvWL77YzFkLQShPobijhRYw6RjakQnPq3QDej6bZmD4rSm80U3PEXu5BWwL0mjJ2Enh_ctqr07eHPa9xb6dPodyNtcZlmS5UtMMrHdQUR_NpYLzc-nNLcvwzCKQbeyQL-lfsfdjjsxXbcLhrstHDi3QIgYdV3K07cxWA4jLmvYRkJhMBuJUsoZWEtow"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 text-white">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-fixed mb-1 block">FOUNDERS &amp; CHEF</span>
+<h3 class="font-headline-md text-headline-md text-white mb-2">主理人的話：林氏夫婦</h3>
+<p class="font-body-sm text-body-sm text-surface-variant/90 leading-relaxed italic">
+              「我們花了七年時間在山裡種樹、引泉，只是想為疲於奔忙的靈魂，留下一盞隨時等候回家的溫暖燈火。」
+            </p>
+</div>
+</div>
+</div>
+<!-- Right Column: Philosophy & Highlights -->
+<div class="lg:col-span-7 flex flex-col lg:pl-space-lg">
+<div class="flex items-center gap-2 mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-primary font-semibold">OUR PHILOSOPHY</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mb-space-md">
+          山嵐隱宿創辦人 暨 私廚掌勺
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-space-xl leading-relaxed">
+          十年前告別繁忙都市，移居南投深山。堅持順應二十四節氣料理在地鮮物，以山泉、原木為媒介，讓來到山嵐的每位旅人都能慢下呼吸，重拾感官的敏銳與清澈。
+        </p>
+<!-- Feature Highlight Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md mb-space-xl">
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary mb-3">
+<span class="material-symbols-outlined text-[20px]">restaurant_menu</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-1">無菜單私廚</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">採集在地當令食材，每日手寫當日限定私饌。</p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-secondary mb-3">
+<span class="material-symbols-outlined text-[20px]">spa</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-1">天然地熱溫泉</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">獨門引流天然碳酸泉，溫潤檜木舒解筋骨壓力。</p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary mb-3">
+<span class="material-symbols-outlined text-[20px]">support_agent</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-1">管家一對一</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">專屬行程規劃，靜音隱私照料每個山居時刻。</p>
+</div>
+</div>
+<!-- Badges & Action -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-md pt-space-lg bg-surface-container-low/40 rounded-xl p-space-md">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-primary-container/30 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface font-semibold">精品永續旅宿認證 · 綠色建築友善獎</span>
+</div>
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-on-primary rounded-lg font-label-md text-label-md hover:bg-on-primary-container transition-colors shadow-sm" data-path="concierge-club" href="#">
+<span>閱讀我們的山居筆記</span>
+<span class="material-symbols-outlined text-[16px]">menu_book</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Elegant Newsletter Subscription Banner -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin mb-space-3xl">
+<div class="w-full bg-gradient-to-r from-surface-container to-surface-container-high rounded-2xl p-space-xl md:p-space-2xl shadow-sm flex flex-col lg:flex-row items-center justify-between gap-space-xl">
+<div class="max-w-xl text-left">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold mb-2 block">JOURNAL SUBSCRIPTION</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">接收節氣私廚菜單與山林手記</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          每月農曆初一寄送當季旬味預報、季節限定隱宿空房釋出以及專屬住客優惠。
+        </p>
+</div>
+<form class="w-full lg:w-auto flex-1 max-w-md flex flex-col sm:flex-row gap-2" onsubmit="event.preventDefault(); alert('感謝您的訂閱，山居手記將於下一節氣送達您的信箱。');">
+<input class="flex-1 px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline font-body-sm text-body-sm shadow-sm focus:outline-none" placeholder="請輸入您的電子郵件地址" required="" type="email"/>
+<button class="px-6 py-3 bg-secondary text-on-secondary rounded-lg font-label-md text-label-md hover:bg-secondary-container hover:text-on-secondary-container transition-colors shadow-sm whitespace-nowrap" type="submit">
+          訂閱手記
+        </button>
+</form>
+</div>
+</section>
+</div>
+<script>
+  // Simple interactive filter toggle without mutating styles illegally
+  document.addEventListener('DOMContentLoaded', () => {
+    const filterContainer = document.getElementById('categoryFilterContainer');
+    if (filterContainer) {
+      const buttons = filterContainer.querySelectorAll('button');
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          buttons.forEach(b => {
+            b.className = 'px-5 py-2 rounded-full font-label-md text-label-md transition-all bg-surface-container-lowest text-on-surface hover:bg-surface-container-high flex items-center gap-1.5 shadow-sm';
+          });
+          btn.className = 'px-5 py-2 rounded-full font-label-md text-label-md transition-all bg-inverse-surface text-inverse-on-surface font-semibold flex items-center gap-1.5 shadow-sm';
+        });
+      });
+    }
+  });
+</script></main><footer class="w-full bg-surface-container-low py-space-2xl"><div class="w-full px-margin-mobile md:px-margin"><div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg"><div class="flex flex-col"><span class="font-headline-md text-headline-md text-primary">山嵐隱宿</span><span class="font-label-sm text-label-sm tracking-[0.2em] text-outline uppercase mt-space-xs">Misty Haven Retreat &amp; Private Kitchen</span></div><div class="flex flex-wrap items-center gap-space-lg font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-on-surface transition-colors" data-path="explore-home" href="#">首頁</a><a class="hover:text-on-surface transition-colors" data-path="featured-suites" href="#">山居私邸</a><a class="hover:text-on-surface transition-colors" data-path="curated-itinerary" href="#">節氣膳食</a><a class="hover:text-on-surface transition-colors" data-path="concierge-club" href="#">山林私塾</a></div></div><div class="mt-space-xl pt-space-lg flex flex-col sm:flex-row items-center justify-between text-outline font-label-sm text-label-sm gap-space-sm"><p>© 2025 Misty Haven Retreat. 慢活隱世，靜心之所.</p><p>山嵐隱宿文化旅宿事業</p></div></div></footer></body></html>

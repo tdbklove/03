@@ -1,0 +1,255 @@
+:root {
+  /* 品牌核心主色 */
+  --color-primary: #8c532b;
+  --color-primary-hover: #734220;
+  --color-on-primary: #ffffff;
+  --color-secondary: #82756a;
+  
+  /* 背景與容器層級 */
+  --color-surface: #fbf9f5;
+  --color-surface-card: #ffffff;
+  --color-surface-muted: #f5f3ef;
+  
+  /* 文字與對比 */
+  --color-text-main: #50453b;
+  --color-text-muted: #e5e7eb;
+  --color-text-dark: #1b1c1a;
+  --color-text-light: #ffdcbd;
+  --color-text-white: #ffffff;
+  
+  /* 線條與邊框 */
+  --color-border: #d4c4b799;
+  
+  /* 按鈕 */
+  --color-btn-bg: #efeeea;
+  
+  /* 標籤 */
+  --color-tag-bg: #30312e;
+  --color-tag-text: #f2f0ed;
+  --color-tag-primary: #7d562d;
+
+  box-sizing: border-box;
+  font-size: 16px;
+
+  font-family: Manrope, 'EB Garamond', Arial, sans-serif;
+}
+a{
+  text-decoration: none;
+}
+label{
+  display: block;
+  font-size: 0.75rem;
+  color: var(--color-text-main);
+  margin-bottom: 0.25rem;
+}
+input{
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  width: auto;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+.row{
+  display: block;
+  width: 100%;
+  font-size: 0;
+}
+.col{
+  display: inline-block;
+  font-size: 1rem;
+  width: auto;
+}
+.col+.col{
+  padding-left: 1rem;
+}
+.card{
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: var(--color-surface-card);
+}
+.mt-1{
+  margin-top: 1rem;
+}
+.mb-1{
+  margin-bottom: 1rem;
+}
+.badge{
+  padding: 0.5rem 1rem;
+  border-radius: 10rem;
+}
+.btn{
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  transition: 0.25s;
+  border: 0;
+}
+.icon{
+  color: var(--color-tag-primary);
+  padding: 1rem 0.8rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-btn-bg);
+  transition: 0.25s;
+  &:hover{
+    color: var(--color-btn-bg);
+    background-color: var(--color-tag-primary);
+  }
+}
+.btn-icon{
+  padding: 0.75rem;
+  border-radius: 50%;
+  color: var(--color-text-main);
+  border: 0;
+  transition: 0.25s;
+  font-size: 1rem;
+  background-color: transparent;
+}
+.btn-icon:hover{
+  background-color: var(--color-btn-bg);
+}
+.btn-primary{
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  font-weight: 700;
+}
+.btn-primary:hover{
+  background-color: var(--color-primary-hover);
+}
+.subtitle{
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+.big-title{
+  font-size: 3.5rem;
+  color: var(--color-text-dark);
+}
+.title{
+  font-size: 2rem;
+  color: var(--color-text-dark);
+}
+.illustrate{
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: var(--color-text-main);
+}
+.position-center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+header{
+  width: 100%;
+  background-color: var(--color-surface);
+  padding: 1rem 2.5rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1024;
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h3{
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: var(--color-primary);
+    margin-bottom: 0.25rem;
+    transition: 0.25s;
+    &:hover{
+      color: var(--color-primary-hover);
+    }
+  }
+  span{
+    color: var(--color-secondary);
+    font-size: 0.75rem;
+    letter-spacing: 0.15rem;
+  }
+  nav a{
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: var(--color-text-main);
+    border-bottom: 2px solid transparent;
+    transition: 0.25s;
+    margin-right: 0.25rem;
+    &:last-child{
+      margin-right: 0;
+    }
+    &:hover{
+      color: var(--color-text-dark);
+    }
+    &.active{
+      color: var(--color-primary);
+      font-weight: 700;
+      border-bottom: 1px solid var(--color-primary);
+    }
+  }
+  #btn-area button{
+    margin-right: 0.25rem;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+main{
+  background-color: var(--color-surface);
+}
+section#hero{
+  background: linear-gradient(#ffdcbd30 0%, #fbf9f5 90%, #fbf9f5 100%),
+  url('./img/manuel-moreno-DGa0LQ0yDPc-unsplash.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  .hero-text{
+    text-align: center;
+  }
+  .hero-weather{
+    display: inline-block;
+    background-color: var(--color-btn-bg);
+    border-radius: 10rem;
+    box-shadow: 0 0 5px 0 #00000030;
+    margin-bottom: 2.5rem;
+    vertical-align: text-bottom;
+  }
+  .hero-weather span{
+    color: var(--color-primary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0 1rem 0 0;
+    border-right: 5px solid var(--color-border);
+    &:first-child>i{
+      font-size: 0.6rem;
+      vertical-align:middle ;
+    }
+    &:last-child{
+      color: var(--color-secondary);
+      border-right: 0;
+      padding: 0 0 0 1rem;
+    }
+  }
+  .hero-from{
+    margin-top: 3rem;
+    background-color: var(--color-text-white);
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  .card{
+    width: calc(100% / 4);
+  }
+  .hero-from .subtitle{
+    margin-top: 0.5rem;
+  }
+
+}
