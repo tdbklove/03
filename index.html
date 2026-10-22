@@ -53,12 +53,10 @@
           <p class="illustrate mt-1">在海拔一千兩百公尺的林木深處，聆聽風穿過松針的聲音，與晨光一同甦醒。</p>
         </div>
         <form action="" method="post" class="hero-from row">
-          <div class="card col">
-            <div class="row">
-              <div class="col">
-                <i class="icon fa-regular fa-calendar-days"></i>
-              </div>
-              <div class="col">
+          <table>
+            <tr>
+              <td><i class="icon fa-regular fa-calendar-days"></i></td>
+              <td>
                 <label for="start_date">入住與退房日期</label>
                 <div>               
                   <input type="date" name="start_date" id="start_date">
@@ -66,43 +64,34 @@
                   <input type="date" name="end_date" id="end_date">
                 </div>
                 <div class="subtitle">共 2 晚</div>
-              </div>
-            </div>
-          </div>
-          <div class="card col">
-            <div class="row">
-              <div class="col">
-                <i class="icon fa-regular fa-calendar-days"></i>
-              </div>
-              <div class="col">
+              </td>
+              <td><i class="icon fa-solid fa-user-group"></i></td>
+              <td>
                 <label for="people">同行夥伴</label>
                 <div>
                   <input type="number" name="people" id="people" value="2">             
                   <span> 位成人</span>
                 </div>
                 <div class="subtitle">專屬山居私宴</div>
-              </div>
-            </div>
-          </div>
-          <div class="card col">
-            <div class="row">
-              <div class="col">
-                <i class="icon fa-regular fa-calendar-days"></i>
-              </div>
-              <div class="col">
-                <label for="start_date">入住與退房日期</label>
-                <div>               
-                  <input type="date" name="start_date" id="start_date">
-                  <span> - </span>
-                  <input type="date" name="end_date" id="end_date">
+              </td>
+              <td><i class="icon fa-brands fa-houzz"></i></td>
+              <td>
+                <label for="room_type">預選房型偏好</label>
+                <div>
+                  <select name="room_type" id="room_type" value="1">
+                    <option value="0" disabled>請選擇預設房型</option>
+                    <option value="1">獨立別墅</option>
+                  </select>
                 </div>
-                <div class="subtitle">共 2 晚</div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <button><i class="fa-solid fa-magnifying-glass"></i> 尋覓靜謐空房</button>
-          </div>
+                <div class="subtitle">配置景觀私泉</div>
+              </td>
+              <td>
+                <button class="btn btn-primary">
+                  <i class="fa-solid fa-magnifying-glass"></i> 尋覓靜謐空房
+                </button>
+              </td>
+            </tr>
+          </table>
         </form>
       </div>
     </section>
