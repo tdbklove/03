@@ -402,6 +402,9 @@ section#suite{
     transform: translateX(0);
     transition: 0.25s;
   }
+  table{
+    width: 100%;
+  }
   table tr td+td{
     padding: 0 0 0 1.25rem;
   }
